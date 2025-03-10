@@ -38,7 +38,11 @@ console.log(
 
 const ws = new WebSocket(`${TUNNEL_SERVER}/${CLIENT_ID}`);
 
-ws.on("open", () => console.log("✅ Tunnel ochildi!"));
+ws.on("open", () =>
+  console.log(
+    `✅ Tunnel ochildi! --> http://${TUNNEL_SERVER.split("//")[1]}/${CLIENT_ID}`
+  )
+);
 ws.on("close", () => console.log("❌ Tunnel yopildi"));
 ws.on("error", (err) => console.error("⚠️ Xatolik:", err));
 

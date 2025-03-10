@@ -29,6 +29,7 @@
     "cors": "^2.8.5",
     "express": "^4.21.2",
     "express-http-proxy": "^2.1.1",
+    "publicnode": "^1.0.0",
     "ws": "^8.18.1",
     "yargs": "^17.7.2"
   }
