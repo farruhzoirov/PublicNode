@@ -1,0 +1,35 @@
+{
+  "name": "publicnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tunnel": "bin/cli/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farruhzoirov/PublicNode.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farruhzoirov/PublicNode/issues"
+  },
+  "homepage": "https://github.com/farruhzoirov/PublicNode#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "chalk": "^5.4.1",
+    "cheerio": "^1.0.0",
+    "commander": "^13.1.0",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-http-proxy": "^2.1.1",
+    "ws": "^8.18.1",
+    "yargs": "^17.7.2"
+  }
+}
