@@ -16,7 +16,7 @@ const argv = yargs(hideBin(process.argv))
   .option("host", {
     alias: "h",
     type: "string",
-    default: "ws://localhost:8080",
+    default: "ws://159.89.86.13:8080",
     description: "Tunnel server manzili",
   })
   .option("id", {
